@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>casa@ktuphotos</title>
+  <script src="https://kit.fontawesome.com/41d51bfab0.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+
+  <div class="large-photos" id="large-photos">
+    <img src="icons/larg10.jpg" id="fullImg" >
+    <span onclick="hidelage()">X</span>
+  </div>
+  
+<div class="photo-gallery">
+  <img src="icons/larg10.jpg" width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/larg5.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/larg2.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/larg3.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/larg7.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/larg4.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/large1.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/boys.jpg"   width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/oldlarg.jpg" width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/larg6.jpg" width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/larg9.jpg" width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/thres.jpg"  width="200px" onclick="openFullImg(this.src)">
+  <img src="icons/twopic.jpg"  width="200px" onclick="openFullImg(this.src)">
+  <img src="icons/twopic2.jpg"  width="200px" onclick="openFullImg(this.src)">
+  <img src="icons/new1.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/new2.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/new3.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/new4.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/new5.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/sm3.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/new11.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/new12.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/sm1.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/sm2.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/new6.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/sm4.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/sm5.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/sm6.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/sm7.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/one.jpg"  width="200px" onclick="openFullImg(this.src)">
+  <img src="icons/old1.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/old2.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/old3.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/old4.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/old5.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/old6.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/old7.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/old8.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/old3.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/old10.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/old11.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/old12.jpg"  width="400px" onclick="openFullImg(this.src)">
+  <img src="icons/old13.jpg"  width="400px" onclick="openFullImg(this.src)">
+  
+</div>
+
+
+
+<script>
+
+
+
+
+const large = document.getElementById("large-photos");
+
+function hidelage(){
+  large.style.display = "none";
+}
+
+
+const largephotos = document.getElementById("large-photos");
+const fullImg = document.getElementById("fullImg");
+
+function openFullImg(pic){
+  largephotos.style.display = "flex";
+  fullImg.src = pic;
+}
+
+
+
+
+
+</script>
+
+
+  
+</body>
+</html>
