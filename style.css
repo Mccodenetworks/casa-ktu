@@ -1333,9 +1333,10 @@ to 100%{
 
 
 .me h3{
-    color: rgb(4, 4, 165);
-    font-size: 14PX;
+  color: rgb(4, 4, 165);
+    font-size: 16PX;
     font-family: poppins;
+    font-weight: bold;
     display: inline-block;
     margin: 10px;
 }
