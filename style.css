@@ -757,9 +757,10 @@ margin-top: 5px;
 .programs{
     width: 300px;
     height: auto;
-    background: rgb(190, 243, 190);
+    background: rgb(217, 252, 217);
     border-radius: 10px;
     border: 1px solid rgb(255,255,255,0.5);
+    border-bottom: #03ac57 2px solid;
     
 }
 
@@ -782,7 +783,7 @@ margin-top: 5px;
 
 .event{
     max-width: 90%;
-    height: 100px;
+    height: auto;
     background-image: linear-gradient(rgba(13, 13, 151, 0.8), rgba(13, 13, 151, 0.8)), url(icons/bck1.jpg);
     margin: 20px 5%;
     background-size: cover;
@@ -798,13 +799,14 @@ margin-top: 5px;
 }
 
 /*this text can be updated with the upcoming event/programs */
-/*.event p{
+.event p{
     color: white;
     font-family: poppins;
-    margin-top: 30px;
+    margin-top: 70px;
+    margin-bottom: 20px;
     margin-left: 20px;
 }
-    */
+ 
 
 .banner-show{
     width: 90%;
@@ -941,6 +943,7 @@ margin-top: 5px;
     background: rgb(4, 79, 163);
     padding: 0px 20px;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
 .box-details img{
@@ -1167,6 +1170,7 @@ footer{
 .footer-inform p, .footer-inform2 p, .footer-inform3 p{
     font-size: 16px;
     margin-bottom: 5px;
+    text-decoration: none;
 }
 
 
@@ -1333,12 +1337,13 @@ to 100%{
 
 
 .me h3{
-  color: rgb(4, 4, 165);
+    color: rgb(4, 4, 165);
     font-size: 16PX;
     font-family: poppins;
     font-weight: bold;
     display: inline-block;
     margin: 10px;
+    
 }
 
 }
